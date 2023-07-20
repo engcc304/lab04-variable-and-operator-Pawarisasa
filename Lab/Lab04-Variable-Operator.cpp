@@ -37,7 +37,6 @@ int main() {
     scanf( "%d", &Time );
     printf( "Salary amount/hr: ");
     scanf( "%f", &Salary );
-    printf( "--------------\n" );
     printf( "Expected Output: \n" );
     printf( "Employees ID = %s \n", ID );
     printf( "Salary = U$ %0.2f", Salary*Time ); //--| YOUR CODE HERE
