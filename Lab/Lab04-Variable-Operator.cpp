@@ -29,16 +29,16 @@
 
 int main() {
     char ID[10] ;
-    float Time ;
-    float Salary ;
+    float Time = 0 ;
+    float Salary = 0 ;
     printf( "Input the Employees ID(Max. 10 chars): " );
     scanf( "%s", ID );
     printf( "Input the working hrs: " );
     scanf( "%f", &Time );
     printf( "Salary amount/hr: ");
     scanf( "%f", &Salary );
-    printf( "Expected Output: \n" );
-    printf( "Employees ID = %s \n", ID );
+    printf( "Expected Output:\n" );
+    printf( "Employees ID = %s\n", ID );
     printf( "Salary = U$ %0.2f", Salary*Time ); //--| YOUR CODE HERE
 
 
